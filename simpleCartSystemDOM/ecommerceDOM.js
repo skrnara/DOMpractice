@@ -1,4 +1,4 @@
-class Toko{
+class Product{
     constructor(name, price, picture){
         this.name=name
         this.price=price
@@ -7,9 +7,9 @@ class Toko{
 }
 
 var listProduct=[
-    new Toko('Ocean Wave',450,'https://www.ikea.com/gb/en/images/products/vanligen-vase-jug-blue__0797965_PE767279_S5.JPG'),
-    new Toko('Rose Blush',600,'https://www.ikea.com/gb/en/images/products/gradvis-vase-pink__0524970_PE644685_S5.JPG'),
-    new Toko('Bone Ivory',1900,'https://www.ikea.com/gb/en/images/products/livsverk-vase-white__0704301_PE725359_S5.JPG')
+    new Product('Ocean Wave',450,'https://www.ikea.com/gb/en/images/products/vanligen-vase-jug-blue__0797965_PE767279_S5.JPG'),
+    new Product('Rose Blush',600,'https://www.ikea.com/gb/en/images/products/gradvis-vase-pink__0524970_PE644685_S5.JPG'),
+    new Product('Bone Ivory',1900,'https://www.ikea.com/gb/en/images/products/livsverk-vase-white__0704301_PE725359_S5.JPG')
 ]
 
 var cart=[]
